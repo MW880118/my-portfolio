@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Home</h2>
+    <p>Hi! I'm [Your Name], a [Your Role or Skillset]. Welcome to my personal portfolio website.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>This is where you tell the world about your background, passions, and what makes you unique.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Here you can showcase your projects, designs, or any work you're proud of.</p>
+    <!-- Example project -->
+    <div>
+      <h3>Project Title</h3>
+      <p>Description of the project.</p>
+      <a href="#">View Project</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+      <input type="submit" value="Send Message" />
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+  </footer>
+  <!-- Back to Top Button -->
+  <button id="backToTopBtn" title="Go to top">⬆ Top</button>
+
+  <!-- Link external script -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
